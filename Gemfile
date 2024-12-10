@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.20"
 gem "bootsnap", require: false
 gem "brakeman", require: false, groups: %i[development test]
 gem "capybara", group: %i[test]
