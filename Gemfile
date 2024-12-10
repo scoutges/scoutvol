@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-# gem "image_processing", "~> 1.2"
 gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", require: false
 gem "brakeman", require: false, groups: %i[development test]
 gem "capybara", group: %i[test]
 gem "debug", platforms: %i[ mri windows ], require: "debug/prelude", groups: %i[development test]
+gem "image_processing", "~> 1.2"
 gem "importmap-rails"
 gem "jbuilder"
 gem "kamal", require: false
