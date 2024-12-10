@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# gem "bcrypt", "~> 3.1.7"
 # gem "image_processing", "~> 1.2"
+gem "bcrypt", "~> 3.1.7"
 gem "bootsnap", require: false
 gem "brakeman", require: false, groups: %i[development test]
 gem "capybara", group: %i[test]
