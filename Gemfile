@@ -11,7 +11,7 @@ gem "jbuilder"
 gem "kamal", require: false
 gem "propshaft"
 gem "puma", ">= 5.0"
-gem "rails", "~> 8.0.0"
+gem "rails", "~> 8.0.1"
 gem "rubocop-rails-omakase", require: false, groups: %i[development test]
 gem "selenium-webdriver", group: %i[test]
 gem "solid_cable"
